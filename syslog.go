@@ -50,4 +50,5 @@ func (b *SyslogBackend) Log(level Level, calldepth int, rec *Record) error {
 	default:
 	}
 	panic("unhandled log level")
+
 }
